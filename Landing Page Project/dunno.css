@@ -1,0 +1,150 @@
+:root {
+    --snow: #FBFBFB;
+    --charcoal: #303A55;
+    --blay: #B4BBCD;
+    --anti-flash: #EFF0F4;
+    --onyx: #353A3C;
+    --silver-sand: #C6C6C4;
+    --pastel-brown: #846A69;
+    --spanish-gray: #A0979C;
+    --white: #FFFFFF;
+    --black: #000000;
+    --light-blue: #B5C6E2;
+    --gun-metal: #262B3B;
+    --bea-blue:  #c6def1ff;;
+    --thistle: #dbcdf0ff;
+   
+    --color1: rgba(146, 103, 89, 1);
+    --color2: rgba(155, 91, 93, 1);
+    --color3:rgba(150, 90, 81, 1);
+    --color4: rgba(36, 31, 45, 1);
+    --color4: ;
+    --color5: ; 
+    --color6: ; 
+    --color7: ; 
+    --color8: ; 
+    --color9: ; 
+    --colo10: ; 
+    
+}   
+body  {
+    background-image: url("images/main.jpg");
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: var(--spanish-gray);
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    padding: 5px;
+}
+
+.navbar-brand {
+    
+    color: var(--silver-sand);
+}
+.navbar-nav {
+    
+    font-family: 'Exo 2', sans-serif;
+    font-size: 25px;
+    color: var(--spanish-gray);
+    
+}
+
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 500%;
+    color: lavender;
+    text-shadow: 1px o px 4px;
+
+}
+
+.btn {
+    height: 7vh;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+    color: var(--snow);
+    text-shadow: 1px 1px 2px var(--white);
+    margin: 25px;
+    /* padding: 10px; */
+    border-radius: 6px;   
+    box-shadow:  -2px -2px 8px var(--black),
+        inset -1px -1px 6px gray;
+    transition: all .5s;
+
+}
+
+.btn:hover {
+    color: var(--snow);
+    text-shadow: 1px 1px 2px var(--onyx);
+    border: 2px  rgba(36, 31, 45, 1);
+    box-shadow: -1px -1px 2px var(--black),
+       inset  -1px -1px 2px gray;
+    
+}
+
+
+.image_outer {
+    margin: 20vh;
+}
+
+.image_outer > img {
+    
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0vh;
+    padding: 5px;
+}
+
+.paragraph {
+
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    
+}
+
+p {
+    font-size: 160%;
+    line-height: 150%;
+    text-align: justify;
+    font-family: 'Exo 2';
+    padding: 10px;
+    color: var(--snow);
+    background-color: rgba(38,43,59,.6);
+
+}
+
+
+
+/* Media Query for tablet sized screens and smaller */
+
+@media screen and (max-width: 768px){
+
+    h1 {
+        font-size: 250%;
+    }
+
+    p {
+        font-size: 100%;
+        line-height: 105%;
+    }
+
+    .btn {
+        font-size: 100%;
+    }
+}
+
+
